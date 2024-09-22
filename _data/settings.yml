@@ -6,11 +6,9 @@ disqus:
 google-ID: ''
 
 menu:
-- {name: 'Parking',  url: 'parking'}
+- {name: 'Venue',  url: 'Venue'}
+- {name: 'Registry',  url: 'Registry'}
 
-# Available social icons are powered by Font Awesome, so you can use any icon that they offer
-social:
-- {icon: 'twitter', link:    'https://twitter.com/paululele'}
 
 # Customize site text
 pagination:
