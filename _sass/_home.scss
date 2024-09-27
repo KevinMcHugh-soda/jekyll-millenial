@@ -7,6 +7,27 @@
   position: relative;
 }
 
+@media (max-width: 600px) {
+  .featured-post {
+    height: 170px;
+  }
+}
+
+@media (min-width: 800px) {
+  .content-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    /* Allows items to wrap to the next line */
+  }
+
+  .article {
+    flex: 1 0 30%;
+    /* Adjust the percentage for the width */
+    margin: 10px;
+    /* Spacing between columns */
+  }
+}
+
 .featured-post h2 {
   bottom: 0;
   margin: 0;
