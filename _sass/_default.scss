@@ -4,18 +4,19 @@
 
 body {
   background-color: blanchedalmond;
-  background: linear-gradient(to bottom, #fcf9eb, #fff3c2); /* Change the colors as needed */
+  background: linear-gradient(to bottom, #fcf9eb, #faf3d4); /* Change the colors as needed */
   height: 100vh; /* Full viewport height */
   margin: 0; /* Remove default margin */
+  font-family: Libre Baskerville;
 
 }
 
 header {
-  background-color: #fcf9eb;
+/*  background-color: #fcf9eb;*/
 }
 
 footer {
-  background-color: #fff3c2;
+/*  background-color: transparent;*/
 }
 
 .container {
