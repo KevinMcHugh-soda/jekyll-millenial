@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+  {% include head.html %}
+  <body>
+    <div class="container">
+      <header class="site-header">
+        <div class="title-container">
+          <h3 class="home-title">
+            Kathi and Maureen McHugh invite you to celebrate the child of Jonna and Kevin on November 17th, 1PM at Peanut Park, Chicago, IL
+          </h3>
+        </div>
+      </header>
+      <div class="content-wrapper">
+        <article>
+          <a href="https://forms.google.com" target="_blank">
+            <div class="featured-post" style="background-image:url({{ site.github.url }}/assets/img/rsvp.png)">
+              <h2><span>RSVP ↗️</span></h2>
+            </div>
+          </a>
+        </article>
+        {{ content }}
+      </div>
+      {% include footer.html %}
+    </div>
+  </body>
+</html>
