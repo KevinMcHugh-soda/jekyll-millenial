@@ -1,43 +1,44 @@
 .title-container {
   display: flex;
   justify-content: center;
-}
-
-.home-title {
-  font-family: cursive;
-  min-height: 56px;
-  width: $container-width;
-  position: fixed;
   background-color: white;
-  box-shadow: 0 5px 6px -6px #bbb;
   z-index: 100;
 }
 
-@media (min-width: $container-width) {
-  .home-title {
-    background-color: blueviolet;
+.home-title {
+  position: fixed;
+}
+
+@media (max-width: 600px) {
+  .site-header {
+    height: 150px;
+    margin-left: 25px;
+    margin-right: 25px;
+    position: relative;
   }
 }
 
 @media (max-width: $container-width) {
   .home-title {
     max-width: 650px;
+    position: relative;
   }
 }
 
 .site-header {
   min-height: 56px;
   width: $container-width;
-  position: fixed;
+  position: relative;
   background-color: white;
   box-shadow: 0 5px 6px -6px #bbb;
   z-index: 100;
 }
+
 @media (max-width: $container-width) {
   .site-header {
     min-height: 56px;
-    width: 95vw;
-    position: fixed;
+    width: auto;
+    position: relative;
     background-color: white;
     box-shadow: 0 5px 6px -6px #bbb;
     z-index: 100;
