@@ -36,9 +36,12 @@
 
 @media (min-width: $container-width) {
   .site-header {
-    min-height: 110px;
     margin-left: 7%;
     margin-right: 7%;
+  }
+
+  .home-title-container {
+    min-height: 110px;
   }
 }
 
