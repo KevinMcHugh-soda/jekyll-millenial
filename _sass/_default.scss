@@ -2,13 +2,16 @@
   Site container
 */
 
+html {
+  min-height: 100vh;
+}
 body {
   background-color: #faf3d4;
   background: linear-gradient(to bottom, #fcf9eb, #faf3d4);
   background-repeat: no-repeat;
   background-size: cover;
   /* Change the colors as needed */
-  height: 100vh;
+  // height: 100vh;
   /* Full viewport height */
   margin: 0;
   /* Remove default margin */
