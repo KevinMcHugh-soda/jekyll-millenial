@@ -3,6 +3,14 @@
   display: block;
   margin: 10px auto 10px;
 }
+
+.page-content {
+  max-width: 600px;
+  display: block;
+  margin: 10px auto 10px;
+  padding: 0px 10px 10px;
+}
+
 .post-date {
   display: block;
   margin-bottom: 1rem;
@@ -33,6 +41,7 @@
     width: 95vw;
     display: block;
     margin: 10px auto 10px;
+    min-height: 850px;
   }
   .featured-image img {
     align: middle;

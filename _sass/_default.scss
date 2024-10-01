@@ -3,10 +3,15 @@
 */
 
 body {
-  background-color: blanchedalmond;
-  background: linear-gradient(to bottom, #fcf9eb, #faf3d4); /* Change the colors as needed */
-  height: 100vh; /* Full viewport height */
-  margin: 0; /* Remove default margin */
+  background-color: #faf3d4;
+  background: linear-gradient(to bottom, #fcf9eb, #faf3d4);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* Change the colors as needed */
+  height: 100vh;
+  /* Full viewport height */
+  margin: 0;
+  /* Remove default margin */
   font-family: Libre Baskerville;
 
 }
