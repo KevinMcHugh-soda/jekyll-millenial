@@ -35,17 +35,21 @@ footer {
 
 .container a {
   text-decoration: underline;
-  color: blue;
 }
 
 .content-wrapper {
   margin: auto;
   display: block;
   width: $container-width - 20px;
+  overflow: auto;
 }
 
 .content-wrapper h1 {
   margin: 20px 0px 5px;
+}
+
+.content-wrapper a {
+  color: blue;
 }
 
 @media (max-width: $container-width) {
